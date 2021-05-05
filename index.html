@@ -22,11 +22,12 @@
         <a class="nav-link" href="#Prequisites">Prequisites</a>
         <a class="nav-link" href="#Introduction_to_Loops">Introduction to Loops</a>
         <a class="nav-link" href="#The_While_Loop">The While Loop</a>
-        <a class="nav-link" href="#The_do_while_Loop">The do while Loop</a>
+        <a class="nav-link" href="#The_Do_While_Loop">The Do While Loop</a>
         <a class="nav-link" href="#The_For_Loop">The For Loop</a>
         <a class="nav-link" href="#Breaking_the_loop">Breaking the Loop</a>
         <a class="nav-link" href="#Continue_to_the_Next_Iteration">Continue to the Next Iteration</a>
         <a class="nav-link" href="#Label_for_break_or_continue">Label for break or continue</a>
+        <a class="nav-link" href="#Reference">Reference</a>
 
     </nav>
     <main id="main-doc">
@@ -43,12 +44,22 @@
 
         <section class="main-section" id="The_While_Loop">
             <header>The While Loop</header>
-            <p></p>
+            <p>A while statement executes its statements as long as a specified condition evaluates to true. A while
+                statement looks as follows:</p>
+            <code></code>
+            <p>If the condition becomes false, statement within the loop stops executing and control passes to the
+                statement following the loop.</p>
+            <p>The condition test occurs before statement in the loop is executed. If the condition returns true,
+                statement is executed and the condition is tested again. If the condition returns false, execution
+                stops, and control is passed to the statement following while.</p>
+            <p>To execute multiple statements, use a block statement
+                <code>&lpar;&lbrace; &hellip; &rbrace;&rpar; </code> to group those statements.
+            </p>
         </section>
 
-        <section class="main-section" id="The_do_while_Loop">
-            <header>The do while Loop</header>
-            <p>The do...while statement repeats until a specified condition evaluates to false.</p>
+        <section class="main-section" id="The_Do_While_Loop">
+            <header>The Do While Loop</header>
+            <p>The do&hellip;while statement repeats until a specified condition evaluates to false.</p>
             <code></code>
             <p><i>statement</i> is always executed once before the condition is checked.</p>
         </section>
@@ -77,6 +88,19 @@
 
         <section class="main-section" id="Breaking_the_loop">
             <header>Breaking the Loop</header>
+            <p>Use the break statement to terminate a loop, switch, or in conjunction with a labeled statement.</p>
+            <ul>
+                <li>
+                    When you use break without a label, it terminates the innermost enclosing while, do-while, for, or
+                    switch immediately and transfers control to the following statement.
+                    When you use break with a label, it terminates the specified labeled statement.
+                </li>
+            </ul>
+            <p>The syntax of the break statement looks like this&colon;</p>
+            <ol>
+                <li>The first form of the syntax terminates the innermost enclosing loop or switch.</li>
+                <li>The second form of the syntax terminates the specified enclosing labeled statement.</li>
+            </ol>
         </section>
 
         <section class="main-section" id="Continue_to_the_Next_Iteration">
@@ -86,17 +110,20 @@
         <section class="main-section" id="Label_for_break_or_continue">
             <header>Label for break or continue</header>
         </section>
-
-
+        <section class="main-section" id="Reference">
+            <header>Reference</header>
+            <p>More can be found at <a
+                    href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration">MDN</a></p>
+            <a rel="license" href="http://creativecommons.org/licenses/by-sa/2.5/"><img alt="Creative Commons License"
+                    style="border-width:0" src="https://i.creativecommons.org/l/by-sa/2.5/88x31.png" /></a><br />This
+            work
+            is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/2.5/">Creative Commons
+                Attribution-ShareAlike 2.5 Generic License</a>.
+        </section>
     </main>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     <footer>
-        <p>More can be found at <a
-                href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration">MDN</a></p>
-        <a rel="license" href="http://creativecommons.org/licenses/by-sa/2.5/"><img alt="Creative Commons License"
-                style="border-width:0" src="https://i.creativecommons.org/l/by-sa/2.5/88x31.png" /></a><br />This work
-        is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/2.5/">Creative Commons
-            Attribution-ShareAlike 2.5 Generic License</a>.
+
     </footer>
 </body>
 
