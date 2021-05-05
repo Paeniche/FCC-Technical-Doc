@@ -1,5 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap");
+
 html {
   background-color: hsl(0, 0%, 96%);
+}
+
+body {
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 #navbar {
@@ -32,11 +38,8 @@ section header {
 }
 
 footer {
-  display: grid;
-  place-content: center;
-  position: absolute;
-  bottom: 0;
-  width: 99%;
-  height: 50px;
+  position: relative;
   text-align: center;
+  bottom: 0;
+  left: 30%;
 }
