@@ -78,3 +78,21 @@ section header {
   margin-top: 25px;
   text-align: center;
 }
+
+code {
+  background-color: #d3d3d3;
+}
+
+#statment-code {
+  background-color: inherit;
+  display: block;
+  margin-left: 5px;
+}
+
+.code-block {
+  display: inline-block;
+  min-width: 200px;
+  padding: 10px 20px;
+  border-left: 2px solid darkgreen;
+  border-radius: 2px;
+}
